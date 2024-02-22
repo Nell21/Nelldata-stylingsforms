@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: x-small;
+    background-color: black;
+    color: white;
+    text-align: left;
+    margin: 0 90px;
+    padding: 5px 240px 5px 6px;
+
+}
+
+input {
+
+    text-align: left;
+    margin: 2px 150px;
+    padding-right: 6px;
+  
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+
+
+.bestcraftbeer {
+    text-align: center;
+    background-color: rgba(235, 87, 18, 0.1);
+    border: 8px solid black;
+    width: 600px;
+    padding: 10px 0;
+    margin-top: 60px;
+}
+
+.reservation {
+    text-align: center;
+    display: block;
+    background-color: rgba(224, 126, 90, 0.3);
+    padding: 25px;
+    margin: 0 auto;
+    
+}
+
+#reservationtime {
+    padding-right: 6px;
+
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 6px 85px;
+    margin-top: 18px;
+
+}
